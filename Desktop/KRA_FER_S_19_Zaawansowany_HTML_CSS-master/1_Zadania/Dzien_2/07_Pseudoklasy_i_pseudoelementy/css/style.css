@@ -1,0 +1,62 @@
+/*.breadcrumb li{
+    list-style-type: none;
+    display: inline;
+    color:dodgerblue;
+}
+
+.breadcrumb {
+    border-style: solid;
+    border-color: darkgrey;
+    background-color: ghostwhite;
+}
+
+.breadcrumb li:hover{
+    cursor: pointer; /*to wyglada jak link mimo ze nie jest linkiem*/
+ /*   color:black;
+}
+*/
+
+.avatar:before {
+    content: ""; /*to MUSI byc inaczej ten pseudoelement sie nie pojawi !!! */
+    background-image: url("../images/n05.png");
+    height: 100px;
+    width: 100px;
+    position: absolute; /*zeby gp bylo widac*/
+    -webkit-background-size: contain; /*zeby go zeskalowac i bylo widac calego*/
+    background-size: contain;
+}
+
+.parent{
+    border: 1px solid lightgrey;
+    width: 500px;
+    height: 200px;
+    display: flex;
+}
+.avatar{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.avatar img{
+    width: 100%;
+}
+
+input {
+    height: 50px;
+    width: 300px;
+    margin-top: 50px;
+    border: 1px solid lightgrey;;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+::-webkit-input-placeholder {
+    padding-left: 20px;
+}

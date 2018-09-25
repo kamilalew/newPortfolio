@@ -1,0 +1,115 @@
+body{
+    font-family: Droid Serif, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: black;
+    padding: 0;
+    margin: 0;
+    background-color: lightgrey;
+}
+/* Global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header{
+    background: darkgrey;
+    color: ghostwhite;
+    padding-top: 30px;
+    padding-right: 30px;
+    min-height: 70px;
+    border-bottom: darkgray 3px solid;
+    font-size: 20px;
+    text-align: center;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header img{
+    padding: 0 20px 0 20px;
+}
+
+
+header nav{
+    float:left;
+}
+/* nie dziala
+header a: hover{
+    color: mediumvioletred;
+    font-weight: bold;
+}
+/* nie dziala
+
+
+/* nie dziala
+#showcase .highlight {
+    color: darkgoldenrod;
+}
+*/
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p1{
+    font-size: 20px;
+}
+
+#showcase p2{
+    font-size: 20px;
+}
+
+#showcase p3{
+    font-size: 20px;
+}
+#showcase p4{
+    font-size: 20px;
+}
+
+#showcase p5{
+    font-size: 20px;
+}
+/* Newsletter */
+
+#newsletter {
+    text-align: center;
+}
+/* boxes */
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float:left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+
+}
+
+
+#boxes .box img{
+    width:240px;
+}
+
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: ghostwhite;
+    background-color: mediumvioletred;
+    text-align: center;

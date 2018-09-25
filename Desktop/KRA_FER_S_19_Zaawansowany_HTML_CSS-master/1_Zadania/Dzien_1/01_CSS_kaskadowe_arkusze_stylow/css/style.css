@@ -1,0 +1,33 @@
+p {
+    font-size: 12px !important;
+}
+
+p {
+    font-size: 40px;
+}
+
+#first {
+    font-size: 20px;
+}
+
+#second {
+    font-size: 10px;
+}
+
+
+p {
+    background-color: yellow;
+}
+
+#newdiv {
+    background-color: red; <!--to tlo zostanie przypisane do div-->
+}
+
+div {
+    background-color: blue;
+}
+
+.same {
+    background-color: green;
+}
+

@@ -1,0 +1,25 @@
+#userForm{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+#userForm label{
+    margin: 10px 0;
+}
+#userForm input, #userForm textarea{
+    border: 1px dashed greenyellow;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 10px;
+}
+#userForm textarea{
+    resize: none;
+    padding: 10px;
+}
+#userForm input[type="submit"]{
+    border: 1px dashed blueviolet;
+    background: red;
+    color: white;
+    padding: 10px;
+}

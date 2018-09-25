@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.accordion h1, .accordion h2, .accordion h3, .accordion h4 {
+    cursor: pointer;
+}
+
+.accordion div, .accordion p {
+    display: none; /*rolls the lists, doesn't display the items*/
+}
+
+
+.accordion {
+    width: 380px;
+    margin: 20px auto;
+}
+
+.accordion .opened {
+    display: block;
+}
+
+/* Wszystkim nagłówkom ustawiamy taką samą czcionkę */
+.accordion h2, h3, h4 {
+    font-family: "News Cycle", sans-serif;
+}
+
+/* Wszystkim nagłówkom z osobna ustawiamy rożne style */
+.accordion h1 {
+    padding: 15px 20px;
+    background-color: #333;
+    font-family: Lobster, sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #1abc9c;
+}
+
+.accordion h2 {
+    padding: 5px 25px;
+    background-color: #1abc9c;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.accordion h3 {
+    padding: 5px 30px;
+    background-color: #b94152;
+    font-size: .9rem;
+    color: #ddd;
+}
+
+.accordion h4 {
+    padding: 5px 35px;
+    background-color: #ffc25a;
+    font-size: .9rem;
+    color: #af720a;
+}
+
+/* Wszystkim paragrafom ustawiamy odpowiednie właściwości */
+.accordion p {
+    padding: 15px 35px;
+    background-color: #ddd;
+    font-family: "Georgia";
+    font-size: .8rem;
+    color: #333;
+    line-height: 1.3rem;
+  }

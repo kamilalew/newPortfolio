@@ -1,0 +1,17 @@
+html {
+    font-size: 10px;
+}
+
+
+#ParentDiv {
+    width: 300px;
+    height: 300px; /*kedy zmienilam width & height na takie same, szary element stal sie kwadratowy*/
+    background-image: linear-gradient(red, yellow);
+    font-size: 20px;
+}
+#ChildDiv {
+    width: 50%;
+    height: 50%;
+    background-color: grey;
+    font-size: 20rem; /*jesli jest 2em, to tekst jest 2 razy wiekszy od ParentDiv, jesli 2rem - 2 razy woekszy od default htmml
+}

@@ -1,0 +1,110 @@
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+
+.layer-1 {
+    width: 800px;
+    height: 800px;
+    background-color: #FF1106;
+    position: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+
+.layer-2 {
+    width: 600px;
+    height: 600px;;
+    background-color: #FF5200;
+    margin: 100px;
+    display: flex;
+}
+
+.layer-3 {
+    width: 400px;
+    height: 400px;
+    background-color: #FF8B05;
+    margin: 100px;
+    display: flex;
+}
+
+.layer-4 {
+    width: 200px;
+    height: 200px;
+    background-color: #FFCC0D;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.layer-2:before {
+    content: ""; /*zawsze musi byc!!*/
+    position: absolute; /*zawsze musi byc!!*/
+    background-color: #FF5200;
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: -50px;
+    justify-content: left;
+}
+
+.layer-2:after {
+    content: ""; /*zawsze musi byc!!*/
+    position: absolute; /*zawsze musi byc!!*/
+    background-color: #FF5200;
+    width: 100px;
+    height: 100px;
+    margin-top: 550px;
+    margin-left: 550px;
+    justify-content: flex-end;
+}
+
+.layer-3:before {
+    content: ""; /*zawsze musi byc!!*/
+    position: absolute; /*zawsze musi byc!!*/
+    background-color: #FF8B05;
+    width: 100px;
+    height: 100px;
+    margin-top: 350px;
+    margin-left: -50px;
+}
+
+.layer-3:after {
+    content: ""; /*zawsze musi byc!!*/
+    position: absolute; /*zawsze musi byc!!*/
+    background-color: #FF8B05;
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: 350px;
+    justify-content: flex-end;
+}
+
+.layer-4:before {
+    content: ""; /*zawsze musi byc!!*/
+    position: absolute; /*zawsze musi byc!!*/
+    background-color: #FFCC0D;
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: -50px;
+    justify-content: left;
+}
+
+.layer-4:after {
+    content: "";
+    position: absolute;
+    background-color: #FFCC0D;
+    width: 100px;
+    height: 100px;
+    margin-top: 150px;
+    margin-left: 150px;
+    justify-content: flex-end;
+}
+
+
+//* Elementy o klasach __layer-2__, __layer_3__ oraz __layer-4__ są wyśrodkowane względem swojego rodzica,
+* Przy użyciu pseudoelementów ```before``` i ```after``` stwórz i dodaj do elementów o klasach
+                                                         __layer-2__, __layer_3__ oraz __layer-4__ kwadraty o bokach ```100px``` i odpowiednich kolorach. Ustaw je w odpowiednich miejsach (_Podpowiedź: przesunięcie zawsze będzie wynosiło ```50px```, oczywiście w odpowiednim kierunku._).

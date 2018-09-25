@@ -1,0 +1,72 @@
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold.woff2') format('woff2'),
+    url('../fonts/roboto-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto-light.woff2') format('woff2'),
+    url('../fonts/roboto-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular.woff2') format('woff2'),
+    url('../fonts/roboto-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.main_cointainer{
+    font-family: 'robotoregular';
+}
+
+#all_lists {
+    height: 500px;
+    width: 300px;
+}
+
+#all_lists li {
+    height: 50px;
+    width: 300px;
+    line-height: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+.main_cointainer #all_lists .large_list ul {
+    background-color: #FF00A5;
+    font-weight: 400 !important;
+}
+.main_cointainer #all_lists .large_list li {
+    background-color: #36FF74;
+}
+
+.main_cointainer #all_lists ul {
+    background-color:#E8370E;
+    font-weight: 700 !important;
+}
+.main_cointainer #all_lists li {
+    background-color:#365FFF;
+}
+.main_cointainer #all_lists ul ul {
+    background-color:#FFEC0C;
+    font-weight: 300 !important;
+}
+.main_cointainer #all_lists ul ul li{
+    background-color:#0DFFDE;
+}
+
+* {
+    color: white;
+}

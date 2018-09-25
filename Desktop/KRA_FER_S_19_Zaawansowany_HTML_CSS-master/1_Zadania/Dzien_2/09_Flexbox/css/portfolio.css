@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    background: #e3e3e3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box__image {
+    width: 100%;
+
+}
+
+.box__image-container{
+    width: 20%;
+}
+.box__text{
+    width: 70%;
+    margin: 0;
+}
