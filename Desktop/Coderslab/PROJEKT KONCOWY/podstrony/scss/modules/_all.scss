@@ -1,0 +1,19 @@
+$width-tablet: 780px;
+$width-desktop: 1200px;
+$width-max: 1200px;
+$color-bg: #E4E4E4;
+$color-text-base:  #444444;
+$color-text-accent: #fff;
+$color-logo-bg: #FC4887;
+$color-btn-bg-selected: #1691C3;
+
+@mixin tablet() {
+  @media screen and (min-width: #{$width-tablet}) {
+    @content;
+  }
+}
+@mixin desktop() {
+  @media screen and (min-width: #{$width-desktop}) {
+    @content;
+  }
+}
